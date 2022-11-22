@@ -1,3 +1,79 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.App{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(to right, rgb(40, 216, 255) ,rgb(238, 108, 255));
+}
+
+.container{
+  box-shadow: 0 0 12px #ccc;
+  border-radius: 8px;
+  padding: 1rem;
+  background-color: rgba(255, 255, 255, 0.6);
+  border: 2px solid #fff;
+}
+
+input{
+  width: 100%;
+  font-size: 1.2rem;
+  padding: 8px 4px;
+  margin: 8px 0;
+  border-radius: 8px;
+
+}
+
+.btn{
+  display: block;
+  width: 100%;
+  font-size: 1.2rem;
+  margin: 8px 0;
+  padding: 10px 0;
+  background-color: #333;
+  color: #fff;
+  border: 1px solid #333;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.btn:hover{
+  background-color: #fff;
+  color: #333;
+  transition: 0.2s;
+}
+
+.btn-reload{
+  background-color: #fff;
+  color: #333;
+}
+.btn-reload:hover{
+  background-color: #333;
+  color: #fff;
+  transition: 0.2s;
+}
+.center{
+  text-align: center;
+  margin: 24px 0;
+}
+
+p{
+  margin: 10px 0;
+}
+
+.img-container{
+  text-align: center;
+}
+
+.img-container  img{
+  height: 200px;
+}
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
